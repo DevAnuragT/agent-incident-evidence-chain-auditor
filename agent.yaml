@@ -1,0 +1,11 @@
+spec_version: "0.1.0"
+name: incident-evidence-chain-auditor
+version: 0.1.0
+description: Review incident artifacts for source, custodian, and integrity references.
+skills:
+  - incident-evidence-chain-auditor-skill
+tools:
+  - review-incident-evidence-chain-auditor
+tags:
+  - cybersecurity
+  - evidence-driven

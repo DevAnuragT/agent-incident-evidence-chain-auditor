@@ -1,0 +1,7 @@
+{
+  "artifacts": [
+    "record-1"
+  ],
+  "evidence_custodian": "evidence-record",
+  "integrity_method": "evidence-record"
+}

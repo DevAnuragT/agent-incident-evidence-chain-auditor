@@ -1,0 +1,24 @@
+{
+  "slug": "incident-evidence-chain-auditor",
+  "title": "Incident Evidence Chain Auditor",
+  "category": "cybersecurity",
+  "description": "Review incident artifacts for source, custodian, and integrity references.",
+  "fields": {
+    "artifacts": {
+      "label": "artifacts",
+      "kind": "list",
+      "minimum": 1
+    },
+    "evidence_custodian": {
+      "label": "evidence custodian",
+      "kind": "required",
+      "minimum": 0
+    },
+    "integrity_method": {
+      "label": "integrity method",
+      "kind": "required",
+      "minimum": 0
+    }
+  },
+  "limitations": "Uses caller-provided evidence only; cannot confirm external facts. Human review remains required."
+}
